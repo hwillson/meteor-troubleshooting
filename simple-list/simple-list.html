@@ -1,0 +1,27 @@
+<body>
+
+  <h1>Broken Products</h1>
+  {{#each products}}
+    {{> badProduct}}
+  {{/each}}
+
+  <h1>Working Products</h1>
+  {{#each products}}
+    {{> goodProduct}}
+  {{/each}}
+
+</body>
+
+<template name="badProduct">
+  <div>
+    <button>Buy!</button>
+    <input type="text" id="price" value="5">
+  </div>
+</template>
+
+<template name="goodProduct">
+  <div>
+    <button>Buy!</button>
+    <input type="text" class="price" value="5">
+  </div>
+</template>
