@@ -1,0 +1,19 @@
+<head>
+  <title>html5-video</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> hello}}
+
+  <video width="320" height="240" controls>
+    <source src="/test.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
