@@ -1,0 +1,23 @@
+<head>
+  <title>clm02</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> addWord}}
+  <ul>
+    {{#each words}}
+      {{> word}}
+    {{/each}}
+  </ul>
+</body>
+
+<template name="addWord">
+  <form class="new-word">
+    <input type="text" name="word" placeholder="Type to add a new word" />
+  </form>
+</template>
+
+<template name="word">
+  <li>{{text}}</li>
+</template>
