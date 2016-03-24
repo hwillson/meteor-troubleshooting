@@ -1,0 +1,28 @@
+<head>
+  <title>login-register-example</title>
+</head>
+
+<body>
+  <h1>Login/Register Example</h1>
+  {{#if showRegister}}
+    {{> register}}
+  {{else}}
+    {{> login}}
+  {{/if}}
+</body>
+
+<template name="login">
+  <p>... login form goes here ...</p>
+  <div>
+    <a href="#" class="js-show-register">Register</a>
+    <button>Login</button>
+  </div>
+</template>
+
+<template name="register">
+  <p>... registration form goes here ...</p>
+  <div>
+    <a href="#" class="js-show-login">Login</a>
+    <button>Register</button>
+  </div>
+</template>
