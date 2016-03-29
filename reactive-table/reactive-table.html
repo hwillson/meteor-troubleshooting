@@ -1,0 +1,17 @@
+<head>
+  <title>reactive-table</title>
+</head>
+
+<body>
+  <h1>Here is my players !</h1>
+  {{> myTemplate}}
+</body>
+
+<template name="myTemplate">
+  {{> reactiveTable collection=players fields=fields rowsPerPage=5}}
+  <p>test bellow</p>
+  {{#each records }}
+    <p>name : {{name}} - score : {{score}}</p>
+  {{/each}}
+  <p>end of test</p>
+</template>
