@@ -1,0 +1,13 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> Template.dynamic template="anotherTemplate" data=getDynamicData }}
+</body>
+
+<template name="anotherTemplate">
+  Another template!
+  {{aFunction}}
+</template>

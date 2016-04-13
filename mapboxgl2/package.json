@@ -1,0 +1,12 @@
+{
+  "name": "mapboxgl2",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "gl": "^2.1.5",
+    "mapbox-gl": "^0.16.0",
+    "meteor-node-stubs": "^0.2.1"
+  }
+}

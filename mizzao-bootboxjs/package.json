@@ -1,0 +1,13 @@
+{
+  "name": "mizzao-bootboxjs",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bootbox": "^4.4.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

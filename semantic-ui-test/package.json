@@ -1,0 +1,11 @@
+{
+  "name": "semantic-ui-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "semantic-ui-css": "^2.1.8"
+  }
+}

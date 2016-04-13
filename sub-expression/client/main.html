@@ -1,0 +1,11 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+  {{#with (teamById 123)}}
+    {{name}}
+  {{/with}}
+
+  {{teamName (teamById 123)}}
+</body>
