@@ -1,0 +1,11 @@
+{
+  "name": "font-awesome-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "postinstall": "cp -R node_modules/font-awesome/fonts ./public/"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
