@@ -1,0 +1,15 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  <table>
+    {{#each dates}}
+      <tr><th>{{this}}</th></tr>
+      {{#each schedule this}}
+        <tr><td>{{this}}</td></tr>
+      {{/each}}
+    {{/each}}
+  </table>
+</body>

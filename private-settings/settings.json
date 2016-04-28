@@ -1,0 +1,8 @@
+{
+  "public": {
+    "setting1": "Some awesome public setting!"
+  },
+  "private": {
+    "setting1": "Some awesome private setting!"
+  }
+}

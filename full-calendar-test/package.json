@@ -1,0 +1,11 @@
+{
+  "name": "full-calendar-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "fullcalendar": "^2.7.0-beta",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
