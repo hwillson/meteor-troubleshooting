@@ -1,1 +1,5 @@
-console.log(Assets.getText('imports/somedir/private/test.txt'));
+//console.log(Assets.getText('test.txt'));
+
+//import Assets from 'meteor/vm';
+
+console.log(Assets);
