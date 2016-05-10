@@ -6,5 +6,6 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.3.2.4');
   api.use('ecmascript');
+  api.use('blaze-html-templates');
   api.mainModule('lib/client/main.js', 'client');
 });
