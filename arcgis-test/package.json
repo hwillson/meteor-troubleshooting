@@ -1,0 +1,11 @@
+{
+  "name": "arcgis-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "arcgis": "^1.0.1",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

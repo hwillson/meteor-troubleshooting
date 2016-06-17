@@ -1,0 +1,16 @@
+{
+  "name": "react-toolbox-test",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "meteor-node-stubs": "~0.2.0",
+    "normalize.css": "^4.1.1",
+    "react": "^15.0.2",
+    "react-addons-css-transition-group": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-toolbox": "^0.16.2"
+  }
+}
